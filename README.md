@@ -93,3 +93,59 @@ email marketing con newletters y ofertas personalizadas
 Pero un 25% de los clientes compran más de 10 productos en la misma compra.
 
 Existe gran recorrido para mejorar este ratio mediante: sistemas de recomendación en el momento de la compra
+
+#### Clientes que generan más ingresos
+
+**INSIGHT #5** Existen clientes con gasto medio decenas de veces superior a la media.
+
+Hay que fidelizar estos clientes mediante programas de fidelización.
+
+### Análisis de supervivencia o de cohortes 
+
+Dado que solo tenemos 5 meses de histórico vamos a crear análisis de cohortes a 3 meses vista, lo cual nos da para hacer 3 cohortes.
+
+Grafico de cohortes 
+
+**INSIGHT #6:** El 90% de que los nuevos clientes no vuelve a comprar en los meses posteriores
+
+### LTV (Life Time Value) de los clientes 
+
+Teniendo en cuenta el 90% de que los nuevos clientes no vuelve a comprar en los meses posteriores podemos calcular el LTV con el histórico que tenemos sin miedo a equivocarnos mucho.
+
+**INSIGHT #7:** El LTV medio es de 42€.
+
+Aplicando nuestro margen sobre esa cifra y el % que queremos dedicar a captación nos sale el importe máximo a invertir en CPA.
+
+Aplicar las acciones de CRO permitirá incrementar el LTV y por tanto también el CPA, siendo una ventaja estratégica muy importante.
+
+### RFM
+
+**REVISAR ESTA SECCION**
+
+### Análisis de los productos 
+
+- Identificación de productos más vendidos. Posiblemente destacando estos productos en la tienda se podrían incrementar las ventas
+
+- **INSIGHT #8**: Casi la mitad de los productos no han tenido ninguna venta en los 5 meses del histórico.
+
+  Se podría realizar un análisis sobre estos productos: ¿No se ven?, ¿Se ven pero no se compran?, ¿Son más baratos en la competencia?
+
+  #### Relación entre el precio y el volumen de ventas
+
+  Grafico correlacion precio-compras
+
+  #### Productos que se eliminan del carrito
+
+  Identificación de los productos que más se eliminan del carrito
+
+  ### Productos más vistos
+
+  GRafgico
+
+  #### Productos vistos pero no comprados
+
+  Grafico
+
+  Hay una oportunidad con estos productos, porque por algún motivo generan el interés de los clientes, pero finalmente no los compran.
+
+  ### Sistemas de recomendación
