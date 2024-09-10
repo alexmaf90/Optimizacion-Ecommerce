@@ -130,22 +130,22 @@ Aplicar las acciones de CRO permitirá incrementar el LTV y por tanto también e
 
   Se podría realizar un análisis sobre estos productos: ¿No se ven?, ¿Se ven pero no se compran?, ¿Son más baratos en la competencia?
 
-  #### Relación entre el precio y el volumen de ventas
+#### Relación entre el precio y el volumen de ventas
 
   Grafico correlacion precio-compras
 
-  #### Productos que se eliminan del carrito
+#### Productos que se eliminan del carrito
 
   Identificación de los productos que más se eliminan del carrito
 
-  ### Productos más vistos
+#### Productos más vistos
 
   GRafgico
 
-  #### Productos vistos pero no comprados
+#### Productos vistos pero no comprados
 
   Grafico
 
   Hay una oportunidad con estos productos, porque por algún motivo generan el interés de los clientes, pero finalmente no los compran.
 
-  ### Sistemas de recomendación
+### Sistemas de recomendación
