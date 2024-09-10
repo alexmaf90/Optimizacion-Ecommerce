@@ -22,7 +22,7 @@ Este proyecto consiste en actuar como consultores para un ecommerce del sector c
 - **Productos:** Información relevante sobre los productos transaccionados.
 
 ## Análisis e Insights
-
+ 
 ### Análisis del customer Journey: Situación inicial 
 
 GRAFICO DE FUNNEL 
@@ -52,3 +52,44 @@ Esta información es muy relevante por ejemplo de cara a paid ads, tanto de gene
 
 Además, parece haber algún subtipo de usuario que compra a la 1 de la mañana, que aunque no sea muy frecuente sí compra mucho
 
+#### Media de facturación mensual 
+
+- La media de facturación mensual es de 124.309,92.
+
+#### Tendencia de los eventos en los últimos meses 
+
+Gráfico tendencia Noviembre y diciembre
+
+El análisis de las tendencias de compra revela varios patrones interesantes:
+
+- **Black Friday**: El mayor pico de ventas coincide con el Black Friday (29 de noviembre), con un aumento significativo unos días antes, el 22 de noviembre, probablemente debido al inicio de la semana de Black Friday.
+- **Navidad**: Las ventas durante los días de Navidad presentan una tendencia decreciente, lo que indica que los consumidores anticipan sus compras navideñas.
+- **Reyes y San Valentín**: No se observan picos de ventas durante la semana de Reyes ni en los días previos a San Valentín. Sin embargo, hay un notable aumento de ventas el 27 de enero, posiblemente relacionado con un evento local.
+
+**Insight #2**: La mayoría de las compras navideñas se concentran en la semana del Black Friday.
+
+### Análisis de los clientes 
+
+#### Distribucion en cuanto al gasto 
+
+Grafico gasto clientes 
+
+La gran mayoría de los clientes han gastado menos de 50€ en el período.
+
+#### Distribucion en cuanto al número de compras
+
+Grafico 
+
+**INSIGHT #3** La gran mayoría de los clientes sólo hace una compra.
+
+Existe gran recorrido para mejorar este ratio mediante:
+
+email marketing con newletters y ofertas personalizadas
+
+#### Productos por cliente de media en cada compra
+
+**INSIGHT #4** La compra mediana incluye 5 productos.
+
+Pero un 25% de los clientes compran más de 10 productos en la misma compra.
+
+Existe gran recorrido para mejorar este ratio mediante: sistemas de recomendación en el momento de la compra
