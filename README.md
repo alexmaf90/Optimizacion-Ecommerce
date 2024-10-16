@@ -37,14 +37,14 @@ Por tanto existe un 40% de visitas sobre las que hay que trabajar para conseguir
 
 En cada sesión, de media:
 
-- Se ven 2.2 productos
+- Se ven 2.16 productos
 - Se añaden 1.3 productos al carrito
-- Se eliminan 0.9 productos del carrito
-- Se compran 0.3 productos
+- Se eliminan 0.92 productos del carrito
+- Se compran 0.29 productos
 
 #### Análisis de los eventos por horas
 
-GRafico Eventos por horas
+GRafico Eventos por horas tipificado
 
 **Insight #1**: todas las métricas se maximzan en las franjas entre las 9 y las 13 y entre las 18 y las 20
 
@@ -55,6 +55,7 @@ Además, parece haber algún subtipo de usuario que compra a la 1 de la mañana,
 #### Media de facturación mensual 
 
 - La media de facturación mensual es de 124.309,92.
+- Productos únicos: 45.327
 
 #### Tendencia de los eventos en los últimos meses 
 
@@ -78,13 +79,15 @@ La gran mayoría de los clientes han gastado menos de 50€ en el período.
 
 #### Distribucion en cuanto al número de compras
 
-Grafico 
+Grafico compras totales num
 
 **INSIGHT #3** La gran mayoría de los clientes sólo hace una compra.
 
+Hay que tener en cuenta que el periodo analizado es de 5 meses y al tratarse de un eccomerce de productos de cosméticos sería necesario analizar un periodo de tiempo superior.
+
 Existe gran recorrido para mejorar este ratio mediante:
 
-email marketing con newletters y ofertas personalizadas
+- Email marketing con newletters y ofertas personalizadas
 
 #### Productos por cliente de media en cada compra
 
@@ -96,7 +99,7 @@ Existe gran recorrido para mejorar este ratio mediante: sistemas de recomendaci�
 
 #### Clientes que generan más ingresos
 
-**INSIGHT #5** Existen clientes con gasto medio decenas de veces superior a la media.
+**INSIGHT #5** Existen clientes con gasto medio decenas de veces superior a la media.Estos clientes compran más de 100 productos por lo que parecen profesionales.
 
 Hay que fidelizar estos clientes mediante programas de fidelización.
 
