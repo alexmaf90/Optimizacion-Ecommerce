@@ -121,10 +121,6 @@ Aplicando nuestro margen sobre esa cifra y el % que queremos dedicar a captació
 
 Aplicar las acciones de CRO permitirá incrementar el LTV y por tanto también el CPA, siendo una ventaja estratégica muy importante.
 
-### RFM
-
-**REVISAR ESTA SECCION**
-
 ### Análisis de los productos 
 
 - Identificación de productos más vendidos. Posiblemente destacando estos productos en la tienda se podrían incrementar las ventas
@@ -136,14 +132,20 @@ Aplicar las acciones de CRO permitirá incrementar el LTV y por tanto también e
 #### Relación entre el precio y el volumen de ventas
 
   Grafico correlacion precio-compras
-
+  
+- Existe una relación clara decreciente
+  
 #### Productos que se eliminan del carrito
 
-  Identificación de los productos que más se eliminan del carrito
+  - Identificación de los productos que más se eliminan del carrito
 
 #### Productos más vistos
 
   GRafgico
+
+  - Destaca sobre todo un producto por encima del resto.
+  - Posiblemente lograríamos incrementar las ventas y el ticket medio simplemente destacando estos productos en la tienda.
+  - 8 de los productos más vistos estan entre los más comprados. Acciones sobre el resto de productos muy vistos y no comprados para aumentar sus ventas
 
 #### Productos vistos pero no comprados
 
@@ -151,4 +153,26 @@ Aplicar las acciones de CRO permitirá incrementar el LTV y por tanto también e
 
   Hay una oportunidad con estos productos, porque por algún motivo generan el interés de los clientes, pero finalmente no los compran.
 
-### Sistemas de recomendación
+## Sistema de Recomendación Basado en Filtrado Colaborativo por Ítems
+
+En este proyecto se desarrolla un **sistema de recomendación** para mejorar la experiencia del usuario en un ecommerce, con el objetivo de incrementar las ventas. Utilizamos un enfoque de **filtrado colaborativo basado en ítems**, que recomienda productos similares a los que un usuario ha visto o comprado anteriormente, analizando patrones de comportamiento entre productos que suelen consumirse juntos.
+
+### Algoritmo de Recomendación
+El sistema parte de una **matriz usuario-producto**, que registra cuántas veces cada usuario ha comprado un producto. A partir de esta matriz, se construye una **matriz producto-producto (item-item)**, donde se calculan las distancias entre cada par de productos utilizando la **distancia euclídea**. Esto permite identificar qué productos son más similares entre sí basándose en el comportamiento de compra de los usuarios.
+
+### Generación de Recomendaciones
+El sistema recomienda productos no solo basándose en un único ítem, sino en varios productos que el usuario haya interactuado (visto o añadido al carrito). A partir de los productos seleccionados, el algoritmo:
+
+1. Extrae los vectores correspondientes de la matriz item-item.
+2. Calcula la **suma de distancias** entre los productos de entrada y todos los demás productos en la matriz.
+3. Excluye los productos ya seleccionados para evitar autorecomendaciones.
+4. Devuelve los **10 productos con menor distancia**, es decir, aquellos que son más similares a los seleccionados.
+
+### Proceso
+Este enfoque flexible permite personalizar las recomendaciones según el historial del usuario, adaptándose a diferentes situaciones y necesidades de la tienda online. Así, el sistema puede generar recomendaciones relevantes basadas tanto en la interacción más reciente del usuario como en su comportamiento acumulado durante la sesión.
+
+### Objetivo
+El sistema está diseñado para ofrecer recomendaciones personalizadas y dinámicas, mejorando la experiencia de compra y fomentando la venta cruzada de productos en el ecommerce.
+
+Grafico RECOMENDADOR
+
