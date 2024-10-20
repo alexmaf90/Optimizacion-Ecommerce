@@ -2,6 +2,8 @@
 
 Este proyecto consiste en actuar como consultores para un ecommerce del sector cosméticos, con el objetivo de analizar datos transaccionales para identificar acciones de optimización de la tasa de conversión (CRO). Buscamos incrementar visitas, conversiones, ticket medio, y, en última instancia, aumentar la facturación global.
 
+Para ver el análisis completo consultar los notebooks en python. 
+
 ## Objetivos y KPI's
 
 - **Objetivo Principal:** Crear una segmentación RFM y un sistema de recomendación avanzado para impulsar visitas, conversiones, y ticket medio.
@@ -25,7 +27,7 @@ Este proyecto consiste en actuar como consultores para un ecommerce del sector c
  
 ### Análisis del customer Journey: Situación inicial 
 
-GRAFICO DE FUNNEL 
+![Grafico de Funnel](Images/Grafico%20de%20Funnel.png)
 
 Conclusiones:
 
@@ -44,7 +46,7 @@ En cada sesión, de media:
 
 #### Análisis de los eventos por horas
 
-GRafico Eventos por horas tipificado
+![Eventos_hora_tipificado](Images/Eventos_hora_tipificado.png)
 
 **Insight #1**: todas las métricas se maximzan en las franjas entre las 9 y las 13 y entre las 18 y las 20
 
@@ -59,7 +61,7 @@ Además, parece haber algún subtipo de usuario que compra a la 1 de la mañana,
 
 #### Tendencia de los eventos en los últimos meses 
 
-Gráfico tendencia Noviembre y diciembre
+![tendencia_diaria_eventos_nov_dic](Images/tendencia_diaria_eventos_nov_dic.png)
 
 El análisis de las tendencias de compra revela varios patrones interesantes:
 
@@ -73,13 +75,13 @@ El análisis de las tendencias de compra revela varios patrones interesantes:
 
 #### Distribucion en cuanto al gasto 
 
-Grafico gasto clientes 
+![gasto_clientes](Images/gasto_clientes.png)
 
 La gran mayoría de los clientes han gastado menos de 50€ en el período.
 
 #### Distribucion en cuanto al número de compras
 
-Grafico compras totales num
+![compras_totales_num](Images/compras_totales_num.png)
 
 **INSIGHT #3** La gran mayoría de los clientes sólo hace una compra.
 
@@ -105,9 +107,12 @@ Hay que fidelizar estos clientes mediante programas de fidelización.
 
 ### Análisis de supervivencia o de cohortes 
 
+El gráfico de cohortes es una herramienta visual que permite analizar el comportamiento de los clientes a lo largo del tiempo, segmentándolos en grupos (cohortes) según la fecha de su primera compra. 
 Dado que solo tenemos 5 meses de histórico vamos a crear análisis de cohortes a 3 meses vista, lo cual nos da para hacer 3 cohortes.
 
-Grafico de cohortes 
+**Grafico de Cohortes**
+
+![Cohortes.](Images/Cohortes.png)
 
 **INSIGHT #6:** El 90% de que los nuevos clientes no vuelve a comprar en los meses posteriores
 
@@ -141,7 +146,7 @@ Aplicar las acciones de CRO permitirá incrementar el LTV y por tanto también e
 
 #### Productos más vistos
 
-  GRafgico
+![productos_mas_vistos](Images/productos_mas_vistos.png)
 
   - Destaca sobre todo un producto por encima del resto.
   - Posiblemente lograríamos incrementar las ventas y el ticket medio simplemente destacando estos productos en la tienda.
@@ -149,9 +154,9 @@ Aplicar las acciones de CRO permitirá incrementar el LTV y por tanto también e
 
 #### Productos vistos pero no comprados
 
-  Grafico
+![prod_vistos_no_comprados](Images/prod_vistos_no_comprados.png)
 
-  Hay una oportunidad con estos productos, porque por algún motivo generan el interés de los clientes, pero finalmente no los compran.
+Hay una oportunidad con estos productos, porque por algún motivo generan el interés de los clientes, pero finalmente no los compran.
 
 ## Sistema de Recomendación Basado en Filtrado Colaborativo por Ítems
 
@@ -174,5 +179,5 @@ Este enfoque flexible permite personalizar las recomendaciones según el histori
 ### Objetivo
 El sistema está diseñado para ofrecer recomendaciones personalizadas y dinámicas, mejorando la experiencia de compra y fomentando la venta cruzada de productos en el ecommerce.
 
-Grafico RECOMENDADOR
+
 
